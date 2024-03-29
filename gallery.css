@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: ;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #ccc;
+
+}
+
+nav a {
+    position: relative;
+    font-size: 1em;
+    font-weight: 500;
+    color: #141414;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: .5s;
+}
+
+nav a:hover {
+    color: rgb(18, 143, 97);
+}
+
+nav a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(0) translate v(50px);
+    opacity: o;
+    transition: .5s;
+}
+
+nav a:hover span {
+    transform: scale(1) translate v(50px);
+    opacity: 1;
+}
+
+.cont {
+    padding: 2rem 5rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, auto);
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10,
+.div11 {
+    height: 250px;
+    background: grey;
+    margin-right: 2rem;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.div1 {
+    background-image: url(./images/image9.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* grid-column: span 2, span 2; */
+}
+
+.div1:hover {
+    padding: 2rem 4rem;
+}
+
+.div2 {
+    background-image: url(./images/images8.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* grid-column: span 2, span 2; */
+}
+
+.div2:hover {
+    padding: 2rem 4rem;
+}
+
+.div3 {
+    background-image: url(./images/image5.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* grid-column: span 2, span 2; */
+}
+
+.div3:hover {
+    padding: 2rem 4rem;
+}
+
+.div4 {
+    background-image: url(./images/image6.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* grid-column: span 2, span 2; */
+}
+
+.div4:hover {
+    padding: 2rem 4rem;
+}
+
+/* .div5 {
+    background-image: url(./images/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    /* grid-column: span 2, span 2; */
+/* } */
+
+/* .div5:hover {
+    padding: 2rem 4rem;
+}
+
+.div6 {
+    grid-column: span 2;
+    background-image: url(./images/image6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.div6:hover {
+    padding: 3rem 5rem;
+} */
+
+/* .div7 {
+    background-image: url(./images/image7.jpg);
+    background-position: center;
+    background-size: cover;
+    /* grid-column: span 2, span 2; */
+/* } */
+
+/* .div7:hover {
+    padding: 2rem 4rem;
+}
+
+.div8 {
+    background-image: url(./images/image8.jpg);
+    background-position: center;
+    background-size: cover; */
+    /* grid-column: span 2, span 2; */
+/* } */
+
+/* .div8:hover {
+    padding: 2rem 4rem;
+}
+
+.div9 {
+    background-image: url(./images/image9.jpg);
+    background-position: center;
+    background-size: cover; */
+    /* grid-column: span 2, span 2; */
+/* } */
+
+/* .div9:hover {
+    padding: 2rem 4rem;
+}
+
+.div10 {
+    background-image: url(./images/image10.jpg);
+    background-position: center;
+    background-size: cover; */
+    /* grid-column: span 2, span 2; */
+/* } */
+
+/* .div10:hover {
+    padding: 2rem 4rem;
+} */
+
+/* .div11 {
+    background-image: url(./images/image11.jpg);
+    background-position: center;
+    background-size: cover; */
+    /* grid-column: span 2, span 2; */
+/* } */
+
+/* .div11:hover {
+    padding: 2rem 4rem;
+} */
